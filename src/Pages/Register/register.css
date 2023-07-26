@@ -1,0 +1,123 @@
+.register{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+     url("https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY.jpg");
+      background-size: cover;
+    background-position: relative;
+
+}
+
+.first > {
+  /* display:inline-block; */
+    border-radius: 50%;
+}
+.logo{
+    height: 100px;
+    /* display: flex; */
+    align-items: center;
+    padding: 20px 50px;
+    justify-content: space-between;
+    color:red;
+    font-weight: bold;
+    font-size: 40px;
+    font-style: inherit;
+    
+}
+.container-one{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.container-one>h1{
+    font-size: 40px;
+}
+
+  .container-one>h2{
+    margin: 20px;
+}
+
+.container-one>p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.container-one>.started{
+
+    width: 80%;
+    height: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    margin-top: 20 px;
+    border-radius: 4px;
+}
+
+.started>input
+{
+    flex: 10;
+    height: 100%;
+    border: none;
+    padding: 0 10px;
+    width: 10px;
+     border-radius: 4px;
+  margin-right: 10px;
+  font-size: 1rem;
+}
+.on-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+  }
+.on-wrapper>.Sign-btn{
+    color: red;
+    background-color:whitesmoke;
+    
+    font-size: 20px;
+    font-weight: 480;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px ;
+    
+    
+    cursor: pointer;
+}
+ .Sign-btn:hover {
+    background-color: red;
+    color: white;
+    
+  }
+.register-btn{
+  
+
+    background-color: rgb(107, 107, 202);
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    
+}
+.register-btn:hover {
+    background-color: #d30e13;
+  }
+  .error-message{
+    font-size: 40px;
+    color:white;
+  }

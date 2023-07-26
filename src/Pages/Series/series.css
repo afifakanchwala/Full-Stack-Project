@@ -1,0 +1,14 @@
+.series-page{
+    background-color: black;
+    
+  
+}
+.data{
+
+    margin-top: 7rem;
+}
+.not-available{
+    text-align: center;
+    margin-top: 3rem;
+    color: red;
+}

@@ -1,0 +1,145 @@
+.items{
+    background-color: black;
+    color:white;
+      overflow: hidden;
+     width: 225px;
+      height: 120px;
+      margin-right: 5px;
+      cursor: pointer;
+    }
+.items> img{
+    width: 200px;
+    height: 100%;
+    /* object-fit:cover; */
+    margin: 0.3rem;
+     
+    
+}
+ .items>img:hover{
+    position: absolute;
+    width: 250px; 
+     height: 140px;
+    top: -150px;
+    /* From shadow box generator */
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.07); 
+    box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.07);
+    border-radius: 5px;
+        }
+        /* .items>img:hover>img{
+    height: 140px;
+}  */
+
+
+ .hover{ 
+    /* z-index: 99; */
+    /* height: max-content;
+   */
+    /* height: 40px;
+    
+      width: 100%;  */
+    
+    position: absolute; 
+    top: -18vh; 
+    /* left: 0; */
+    /* border-radius: 0.3rem; */
+    /* box-shadow: rgba(0, 0, 0, 0.75) 0px 3px 10px;
+    background-color: #181818;
+    transition: 0.3s ease-in-out; */
+ }
+ 
+
+.hover>img{
+    width: 10%;
+        height: 140px;
+        object-fit: cover;
+        border-radius: 0.3rem;
+        top: 0;
+        z-index: 4;
+        position: absolute;
+
+}
+.hover>video{
+    
+    width: 10%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 0.3rem;
+    top: 0;
+    z-index: 5;
+    position: absolute;
+}
+
+
+.itemInfo{
+display: flex;
+flex-direction: column;
+padding: 5px;
+
+
+/* position: absolute; */
+  /* bottom: 0;
+  left: 0; */
+  width: 100%;
+}
+.name {
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    
+    
+  }
+
+.icon{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    gap: 10px;
+}
+.btn{
+    font-size: 15px;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* .infoTop{
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    align-items: center;
+    margin-bottom: 10px;
+    color: gray;
+} */
+
+/* .age{
+    margin: 0 10px;
+    padding: 1px 3px;
+    border: 1px solid gray;
+} */
+
+/* .description{
+    font-size: 13px;
+    margin-bottom: 10px;
+} */
+
+.genre{
+    font-size: 10px;
+    color:lightblue;
+    
+   
+}
+.genre>ul{
+    gap: 1rem;
+   
+
+}
+.genre>li{
+    padding-right: 0.7rem;
+    
+   }
+&:first-of-type {
+    list-style-type: none;
+   }
+  

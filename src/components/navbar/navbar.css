@@ -1,0 +1,159 @@
+.navbar{
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    position: fixed; 
+    top: 0;
+    z-index: 999;
+    /* background-color: black; */
+    background: linear-gradient(to top,transparent 0%,rgb(0,0,0,0.3) 50%);
+
+&.scrolled {
+    background-color: black;
+}
+}
+.container{
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;    
+}
+.left{
+    display: flex;
+    align-items: center;
+    
+}
+.right{
+    
+    display: flex;
+    align-items: center;
+    
+    
+}
+.right>.search{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    /* padding: 0.2rem; */
+    /* padding-left: 0.5rem; */
+    color: white;
+}
+.search>button{
+    background-color: transparent;
+    margin-bottom: 40px;
+    
+    padding: none;
+    border: none;
+    &:focus {
+      outline: none;
+    }
+}
+.search>input{
+    width: 10%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+    background-color: transparent;
+    border: none;
+    color: white;
+    &:focus {
+      outline: none;
+    }
+}
+/* .show-search {
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.6);
+
+} */
+   .show-search> input {
+      width: 50%;
+      opacity: 1;
+      visibility: visible;
+      padding: 10px;
+    }
+  
+.icons{
+    margin: none;
+    cursor: pointer;
+    color: white;
+    padding: none;
+    width: 100px;
+    font-size: 20px;
+    }
+/* .profile{
+    cursor: pointer;
+} */
+.image{
+    height: 25px;
+    margin-right: 40px;
+    color: rgb(196, 150, 35);
+    font-weight:bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-style:italic;
+    
+}
+.left >span{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.menu:hover .options {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+  }
+  
+ /* .options {
+    display: none;
+    
+    align-items: center;
+    
+
+}
+
+.power{
+    padding:0px;
+    cursor: pointer;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color:white;
+    font-size: 20px;
+    }
+    .power>.icons-bi{
+        
+    } */
+
+    .options {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: 0px; */
+      }
+      
+      .power {
+        display: flex;
+        align-items: center;
+        background-color: #f44336; /* Red color for the button background */
+        color: white; /* White text color for the button */
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+        margin-top: 0px;
+      }
+      
+      .power:hover {
+        background-color: #d32f2f; /* Darker shade of red on hover */
+      }
+      
+      .icons-bi {
+        margin-right: 5px;
+        font-size: 20px;
+      }
+      
